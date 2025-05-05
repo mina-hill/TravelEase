@@ -49,17 +49,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ActivitiesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ActivitiesForm.Designer.cs">
+      <DependentUpon>ActivitiesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingSummary.Designer.cs">
+      <DependentUpon>BookingSummary.cs</DependentUpon>
     </Compile>
     <Compile Include="LocalConfig.cs" />
+    <Compile Include="OperatorProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperatorProfile.Designer.cs">
+      <DependentUpon>OperatorProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ProviderProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProviderProfile.Designer.cs">
+      <DependentUpon>ProviderProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravellerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TravellerDashboard.Designer.cs">
+      <DependentUpon>TravellerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravellerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TravellerProfile.Designer.cs">
+      <DependentUpon>TravellerProfile.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActivitiesForm.resx">
+      <DependentUpon>ActivitiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingSummary.resx">
+      <DependentUpon>BookingSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorProfile.resx">
+      <DependentUpon>OperatorProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -73,6 +109,15 @@
     <Content Include="localconfig.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <EmbeddedResource Include="ProviderProfile.resx">
+      <DependentUpon>ProviderProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TravellerDashboard.resx">
+      <DependentUpon>TravellerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TravellerProfile.resx">
+      <DependentUpon>TravellerProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

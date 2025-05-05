@@ -399,3 +399,5 @@ FodyWeavers.xsd
 
 #local config
 localconfig.json
+TravelEaseSystem/TravelEaseSystem/BookingSummary.cs
+TravelEaseSystem/TravelEaseSystem/BookingSummary.resx
